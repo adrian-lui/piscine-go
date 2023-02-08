@@ -1,0 +1,1 @@
+ls -l | awk '(NR+1)%2 {print $0}'
